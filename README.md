@@ -29,7 +29,7 @@ For example:
 mvn package
 ```
 
-## Run the utility:
+### Run the utility
 
 ```bash
 mvn exec:java -Dexec.mainClass=com.google.srtt.dataform.repo_get.Main -Dexec.args="--project=<project> --location=<location> --repository=<repo> --workspace=<workspace>"
