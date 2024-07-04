@@ -23,7 +23,8 @@ For example:
   --workspace <MyWorkspace>
 ```
 
-## Build
+## Building
+The utility is provided in source and leverages Maven for build.  It was tested again Java 17.
 
 ```bash
 mvn package
@@ -36,5 +37,7 @@ mvn exec:java -Dexec.mainClass=com.google.srtt.dataform.repo_get.Main -Dexec.arg
 ```
 
 Replace the placeholders (e.g., bv-cdip-431876591-poc, us-east1) with your actual Google Cloud project, location, repository, and workspace values.
+
+The repository is written to a local directory called `out`.
 
 
